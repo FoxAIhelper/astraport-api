@@ -1,5 +1,31 @@
 # AstraPort API
 
+Minimal scaffold for AstraPort API (NestJS)
+
+## Getting started
+
+Install and run in development:
+
+```bash
+npm install
+npm run start:dev
+```
+
+Run tests:
+
+```bash
+npm test
+```
+
+Build and run production image:
+
+```bash
+npm run build
+docker build -t astraport-api .
+docker run -p 3000:3000 astraport-api
+```
+# AstraPort API
+
 AstraPort API is the backend service built with **NestJS**.  
 It exposes endpoints for portfolio analysis, risk scoring, and integration with Stellar smart contracts.
 
